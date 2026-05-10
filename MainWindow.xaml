@@ -85,5 +85,83 @@
                          VerticalScrollBarVisibility="Auto"/>
         </Border>
 
+        <!-- ROW 3: QUICK TOPIC BUTTONS -->
+        <WrapPanel Grid.Row="3"
+                   Margin="0,0,0,10"
+                   HorizontalAlignment="Center">
+
+            <Button x:Name="btnPasswords"
+                    Content="Passwords"
+                    Click="QuickTopic_Click"
+                    Tag="passwords"
+                    Background="#555555"
+                    Foreground="White"
+                    BorderThickness="0"
+                    Padding="10,5"
+                    Margin="4"
+                    FontSize="12"
+                    Cursor="Hand"/>
+
+            <Button x:Name="btnPhishing"
+                    Content="Phishing"
+                    Click="QuickTopic_Click"
+                    Tag="phishing"
+                    Background="#555555"
+                    Foreground="White"
+                    BorderThickness="0"
+                    Padding="10,5"
+                    Margin="4"
+                    FontSize="12"
+                    Cursor="Hand"/>
+
+            <Button x:Name="btnPrivacy"
+                    Content="Privacy"
+                    Click="QuickTopic_Click"
+                    Tag="privacy"
+                    Background="#555555"
+                    Foreground="White"
+                    BorderThickness="0"
+                    Padding="10,5"
+                    Margin="4"
+                    FontSize="12"
+                    Cursor="Hand"/>
+
+            <Button x:Name="btnScams"
+                    Content="Scams"
+                    Click="QuickTopic_Click"
+                    Tag="online scams"
+                    Background="#555555"
+                    Foreground="White"
+                    BorderThickness="0"
+                    Padding="10,5"
+                    Margin="4"
+                    FontSize="12"
+                    Cursor="Hand"/>
+
+            <Button x:Name="btnMalware"
+                    Content="Malware"
+                    Click="QuickTopic_Click"
+                    Tag="malware"
+                    Background="#555555"
+                    Foreground="White"
+                    BorderThickness="0"
+                    Padding="10,5"
+                    Margin="4"
+                    FontSize="12"
+                    Cursor="Hand"/>
+
+            <Button x:Name="btnTopics"
+                    Content="All Topics"
+                    Click="QuickTopic_Click"
+                    Tag="topics"
+                    Background="#555555"
+                    Foreground="White"
+                    BorderThickness="0"
+                    Padding="10,5"
+                    Margin="4"
+                    FontSize="12"
+                    Cursor="Hand"/>
+        </WrapPanel>
+
     </Grid>
 </Window>
