@@ -163,5 +163,55 @@
                     Cursor="Hand"/>
         </WrapPanel>
 
+        <!-- ROW 4: MESSAGE INPUT AREA -->
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox x:Name="txtUserInput"
+                     Grid.Column="0"
+                     Height="40"
+                     FontSize="13"
+                     Background="#3C3C3C"
+                     Foreground="White"
+                     CaretBrush="White"
+                     BorderBrush="Gray"
+                     BorderThickness="1"
+                     Padding="10,8"
+                     IsEnabled="False"
+                     KeyDown="txtUserInput_KeyDown"/>
+
+            <Button x:Name="btnSend"
+                    Grid.Column="1"
+                    Content="Send"
+                    Click="btnSend_Click"
+                    IsEnabled="False"
+                    Background="Black"
+                    Foreground="ForestGreen"
+                    FontWeight="Bold"
+                    FontSize="13"
+                    Width="80"
+                    Height="40"
+                    Margin="8,0,0,0"
+                    Cursor="Hand"
+                    BorderThickness="0"/>
+
+            <Button x:Name="btnClear"
+                    Grid.Column="2"
+                    Content="Clear"
+                    Click="btnClear_Click"
+                    Background="#CC3333"
+                    Foreground="White"
+                    FontWeight="Bold"
+                    FontSize="13"
+                    Width="80"
+                    Height="40"
+                    Margin="8,0,0,0"
+                    Cursor="Hand"
+                    BorderThickness="0"/>
+        </Grid>
     </Grid>
 </Window>
