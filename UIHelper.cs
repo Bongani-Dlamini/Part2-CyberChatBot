@@ -51,9 +51,7 @@ namespace Part2_CyberChatBot
             chatBox.ScrollToEnd();
         }
 
-        // ═══════════════════════════════════════════════════════
-        // ADD USER MESSAGE: adds the user's message to the chat
-        // ═══════════════════════════════════════════════════════
+       // what this does is that it adds how the user will see their own messages in the chat.  
         public void AddUserMessage(RichTextBox chatBox, string message, string userName)
         {
             Paragraph para = new Paragraph();
@@ -99,3 +97,9 @@ namespace Part2_CyberChatBot
         }
     }
 }
+
+// References:
+// Microsoft (n.d.) SoundPlayer Class. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.media.soundplayer?view=windowsdesktop-10.0 (Accessed: 22 April 2026).
+// Microsoft (n.d.) RichTextBox Overview - WPF. Available at: https://learn.microsoft.com/en-us/dotnet/desktop/wpf/controls/richtextbox-overview (Accessed: 22 April 2026).
+// Microsoft (n.d.) Paragraph Class. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.windows.documents.paragraph?view=windowsdesktop-10.0 (Accessed: 22 April 2026).
+// Microsoft (n.d.) SolidColorBrush Class. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.windows.media.solidcolorbrush?view=windowsdesktop-10.0 (Accessed: 22 April 2026).

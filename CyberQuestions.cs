@@ -132,3 +132,8 @@ namespace Part2_CyberChatBot
         }
     }
 }
+
+// References:
+// Microsoft (n.d.) C# Arrays. Available at: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/arrays (Accessed: 23 April 2026).
+// Microsoft (n.d.) String.Contains Method. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.string.contains?view=net-10.0 (Accessed: 23 April 2026).
+// Microsoft (n.d.) String.ToLower Method. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.string.tolower?view=net-10.0 (Accessed: 23 April 2026).

@@ -217,3 +217,8 @@ namespace Part2_CyberChatBot
         }
     }
 }
+
+// references:
+// Microsoft (n.d.) Dictionary<TKey, TValue> Class. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=net-10.0 (Accessed: 21 April 2026).
+// Microsoft (n.d.) Random Class. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.random?view=net-10.0 (Accessed: 21 April 2026).
+// Microsoft (n.d.) Random.Next Method. Available at: https://learn.microsoft.com/en-us/dotnet/api/system.random.next?view=net-8.0 (Accessed: 21 April 2026).
