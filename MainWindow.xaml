@@ -16,7 +16,6 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <!-- ROW 0: ASCII ART HEADER -->
         <Border Grid.Row="0"
                 Background="#1E1E1E"
                 CornerRadius="6"
@@ -30,7 +29,6 @@
                        TextWrapping="Wrap"/>
         </Border>
 
-        <!-- ROW 1: NAME INPUT AREA -->
         <Border Grid.Row="1"
                 x:Name="NamePanel"
                 Background="#3C3C3C"
@@ -68,7 +66,6 @@
             </StackPanel>
         </Border>
 
-        <!-- ROW 2: CHAT DISPLAY AREA -->
         <Border Grid.Row="2"
                 Background="#1E1E1E"
                 CornerRadius="6"
@@ -85,7 +82,6 @@
                          VerticalScrollBarVisibility="Auto"/>
         </Border>
 
-        <!-- ROW 3: QUICK TOPIC BUTTONS -->
         <WrapPanel Grid.Row="3"
                    Margin="0,0,0,10"
                    HorizontalAlignment="Center">
@@ -163,7 +159,6 @@
                     Cursor="Hand"/>
         </WrapPanel>
 
-        <!-- ROW 4: MESSAGE INPUT AREA -->
         <Grid Grid.Row="4">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
