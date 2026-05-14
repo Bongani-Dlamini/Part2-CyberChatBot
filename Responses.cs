@@ -5,7 +5,7 @@ namespace Part2_CyberChatBot
 {
     internal class Responses
     {
-        // this is part of memory, so that the bot can remember things like the users name.
+        // In summary, this class is responsible for storing all the responses that the bot can give, and also for some of the logic behind the bot's ability to remember things about the user and to detect their feelings.
         public string UserName { get; set; }
         public string FavouriteTopic { get; set; }
 
@@ -16,6 +16,7 @@ namespace Part2_CyberChatBot
         private Random random = new Random();
 
         // these are the words that the bot will look for to detect the users feelings. (personalization)
+        // used arrays for the personalization features.
         private string[] worriedWords = { "worried", "scared", "afraid", "nervous", "anxious" };
         private string[] curiousWords = { "curious", "interested", "wondering", "want to know" };
         private string[] frustratedWords = { "frustrated", "angry", "annoyed", "confused", "lost" };
@@ -210,7 +211,7 @@ namespace Part2_CyberChatBot
                     // grab whatever comes after the phrase
                     int index = userInput.IndexOf(phrase) + phrase.Length;
                     FavouriteTopic = userInput.Substring(index).Trim().TrimEnd('.');
-                    return $"Great! I will remember that you are interested in {FavouriteTopic}. It is a crucial part of staying safe online! 🛡️";
+                    return $"Great! I will remember that you are interested in {FavouriteTopic}. It is a crucial part of staying safe online!"; // what this line does is that it gives the user a response that confirms that the bot has remembered their favourite topic.
                 }
             }
             return null;
